@@ -1,0 +1,99 @@
+/*  -- THEME COLORS
+
+->DEFAULT COLOURS
+text etc    light-black     #58585a
+buttons     green wala      #2ABB9B
+->COLOR TAGS
+html        blue:           #19B5FE
+css         voilet:         #34495e
+cpp         darkgrey:       #2c3e50
+php         lightblue:      #3498db
+javascript  orange:         #d35400
+jquery      pheekablue      #03C9A9
+asp         lightred        #F5D76E
+android     green           #2ECC71
+java        red             #c0392b
+wordpress   silver          #95a5a6
+d-tools     green           #1abc9c
+business    win8green       #26A65B
+design      darkoragne      #e67e22
+other       greyishblue     #aea8d3
+*/
+
+
+body { font-family:"Trebuchet MS", Helvetica, sans-serif;}
+input, select, option, textarea { font-family:"Trebuchet MS", Helvetica, sans-serif; }
+.clear { clear:both; }
+.line-border { border:1px solid #ECF0F1; }
+a { text-decoration:none; color:#58585a; }
+ul li { color:#58585a; }
+h1, h2, h3, h4, h5, h6, p { color:#58585a; }
+.title { padding:15px 20px; }
+.breadcrumb { margin-top:2%; margin-left:5%; }
+.breadcrumb h2 { color:#2ABB9B; }
+.notification-badge { display:block; position:absolute; margin:-40px 83px; padding:0 5px; font-size:12px; color:#00A8E7; background:#FFFFFF; }
+.inline-buttons { padding:20px; float:left; }
+.inline-buttons a { display:inline-block; padding:5px 10px; background:#2ABB9B; font-size:14px; color:#ffffff; }
+
+
+.content-md {
+    margin-top:18px;
+    margin-left:5%;
+    padding:10px 0;
+    float:left;
+    width:960px;
+    background:#ffffff;
+}
+.content-lg {
+    margin-top:20px;
+    margin-left:5%;
+    padding:10px 0 30px;
+    float:left;
+    width:90%;
+    background:#ffffff;
+}
+
+.content-pref-wizard {
+	margin:20px auto;
+    padding:10px 0 30px;
+    width:960px;
+    background:#ffffff;
+}
+.content-pref-wizard h3 { padding:20px; }
+.content-pref-wizard h3 small { font-size:10px; }
+.content-pref-wizard a { float:right; display:block; }
+/*-----------------------------------------------------------Profile-----------------------------------------------------------*/
+.profile-pic { padding:15px 20px; float:left; }
+.profile-pic img { border:10px solid #ECF0F1; }
+.user-info { padding:15px 20px; }
+.user-info p { font-size:14px; }
+.course-cols { padding:20px; }
+.course-cols ul { list-style:none; font-size:16px; }
+.course-cols ul.cols li { padding:20px 0; }
+.course-cols .col1 { width:20%; float:left; }
+.course-cols .col2 { width:20%; float:left; }
+.course-cols .col3 { width:20%; float:left; }
+.course-cols .col4 { width:20%; float:left; }
+.info { padding:10px 20px; font-size:14px; }
+.cols-categories { padding:20px 20px; }
+ul.profile { padding-bottom:20px; list-style:none; font-size:16px; }
+ul.profile li  { padding:20px 100px 20px 0; }
+.cols-categories .col1 { float:left; }
+.cols-categories .col2 { float:left; }
+/*-----------------------------------------------------------Account Settings-----------------------------------------------------------*/
+table.settings { margin-left:20px; font-size:16px; color:#58585a; text-align:left; }
+table.settings tr th { padding:20px 0; }
+table.settings tr td { padding-left:80px; }
+
+form table.editform { margin:20px auto; font-size:16px; color:#58585a; text-align:left; }
+form table.editform tr th { margin:0 auto; padding-right:60px; }
+form table.editform tr td { margin:0 auto; padding:12px 0; }
+form table.editform tr td input { padding:5px; width:600px; font-size:16px; }
+form table.editform tr td textarea { padding:5px; width:602.5px; font-size:16px; }
+form table.editform tr td select { padding:5px; width:613.5px; font-size:16px; }
+a.form-action { margin:20px 42px; padding:6px 12px; float:right; display:inline-block; font-size:16px; color:#FFFFFF; background:#2ABB9B; }
+/*-----------------------------------------------------------End Account Settings-----------------------------------------------------------*/
+/*--------------Summary Review------------------*/
+button.summary-review { margin:20px 0px; padding:8px 0; width:150px; font-size:14px; background:#2ABB9B; color:#FFFFFF; border:1px solid #2ABB9B; transition:all 0.5s ease-out; }
+    button.summary-review:hover { background:#ECF0F1; color:#2ABB9B; }
+/*--------------End Summary Review------------------*/
