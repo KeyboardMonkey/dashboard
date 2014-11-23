@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Summary extends CI_Controller {
+class Summary extends MY_Controller {
 
 	public function mark()
 	{

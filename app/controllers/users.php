@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class users extends CI_Controller {
+class users extends MY_Controller {
 
 	public function view($id=NULL)
 	{

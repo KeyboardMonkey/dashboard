@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class courses extends CI_Controller {
+class courses extends MY_Controller {
 
 	public function view()
 	{
