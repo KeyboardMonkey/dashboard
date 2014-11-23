@@ -26,22 +26,6 @@
 
 	  <div id="login-page">
 	  	<div class="container">
-	  
-	  	<?php if(!validation_errors()==NULL){?>
-	  	 <div class="alert" style="color:#fff; text-align:center;"><?=validation_errors();?><div>
-	  	 <?php 
-	  	 
-}
-	  	 ?> 
-	  	 <?php if(!$message==NULL) { ?>
-	  	 <div class="alert" style="color:#fff; text-align:center;"><?=$message;?><div>
-
-	  	 <?php 
-	  	 
-}
-	  	 ?> 
-	  	  
-                    
 	  	
 		      <form class="form-login" method="post">
 		        <h2 class="form-login-heading">Admin Panel Login</h2>

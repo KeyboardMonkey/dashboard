@@ -2,11 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="847960ec-7303-4ae5-a58b-aa945b411df6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/ui-icons_ef8c08_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/teacher/pages/add-course-old.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/teacher/pages/add-course.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/teacher/pages/add-user.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/teacher/admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/teacher/pages/blank.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/courses.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/teacher/courses.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/teacher/pages/courses.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/teacher/pages/edit-user.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/templates/footer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/teacher/templates/footer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/templates/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/teacher/templates/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/teacher/home.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/teacher/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/teacher/pages/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/teacher/pages/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery-1.3.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/jquery-ui-1.7.1.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery-ui-1.7.1.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery-ui-1.7.1.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/templates/left-bar-teacher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/teacher/templates/left-bar-teacher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/templates/left-bar-teacher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/templates/left-bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/teacher/templates/left-bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/pages/lock_screen.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/pages/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/pages/logout.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/templates/right-bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/teacher/templates/right-bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/teacher/pages/summary-mark.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/teacher/summary.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/teacher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/teacher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/teacher/teacher.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/templates/top-bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/teacher/templates/top-bar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/teacher/pages/track-add.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/teacher/tracks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/ui.multiselect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/teacher/users.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/teacher/pages/users.php" />
+      <change type="DELETED" beforePath="C:\wamp\www\dashboard\app\views\pages\track-add.php" afterPath="" />
+      <change type="MOVED" beforePath="C:\wamp\www\dashboard\app\controllers\home.php" afterPath="$PROJECT_DIR$/app/controllers/admin/home.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\dashboard\app\controllers\summary.php" afterPath="$PROJECT_DIR$/app/controllers/admin/summary.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\dashboard\app\controllers\tracks.php" afterPath="$PROJECT_DIR$/app/controllers/admin/tracks.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\dashboard\app\controllers\users.php" afterPath="$PROJECT_DIR$/app/controllers/admin/users.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\dashboard\app\views\index.html" afterPath="$PROJECT_DIR$/app/views/admin/index.html" />
+      <change type="MOVED" beforePath="C:\wamp\www\dashboard\app\views\pages\add-course-old.php" afterPath="$PROJECT_DIR$/app/views/admin/pages/add-course-old.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\dashboard\app\views\pages\add-course.php" afterPath="$PROJECT_DIR$/app/views/admin/pages/add-course.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\dashboard\app\views\pages\add-user.php" afterPath="$PROJECT_DIR$/app/views/admin/pages/add-user.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\dashboard\app\views\pages\blank.php" afterPath="$PROJECT_DIR$/app/views/admin/pages/blank.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\dashboard\app\views\pages\courses.php" afterPath="$PROJECT_DIR$/app/views/admin/pages/courses.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\dashboard\app\views\pages\edit-user.php" afterPath="$PROJECT_DIR$/app/views/admin/pages/edit-user.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\dashboard\app\views\pages\index.html" afterPath="$PROJECT_DIR$/app/views/admin/pages/index.html" />
+      <change type="MOVED" beforePath="C:\wamp\www\dashboard\app\views\pages\index.php" afterPath="$PROJECT_DIR$/app/views/admin/pages/index.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\dashboard\app\views\pages\summary-mark.php" afterPath="$PROJECT_DIR$/app/views/admin/pages/summary-mark.php" />
+      <change type="MOVED" beforePath="C:\wamp\www\dashboard\app\views\pages\users.php" afterPath="$PROJECT_DIR$/app/views/admin/pages/users.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/core/MY_Controller.php" afterPath="$PROJECT_DIR$/app/core/MY_Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/course.php" afterPath="$PROJECT_DIR$/app/models/course.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/templates/header.php" afterPath="$PROJECT_DIR$/app/views/templates/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/templates/left-bar.php" afterPath="$PROJECT_DIR$/app/views/templates/left-bar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/track-add.php" afterPath="$PROJECT_DIR$/app/views/pages/track-add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/tracks.php" afterPath="$PROJECT_DIR$/app/controllers/tracks.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users.php" afterPath="$PROJECT_DIR$/app/controllers/users.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/login.php" afterPath="$PROJECT_DIR$/app/controllers/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/login.php" afterPath="$PROJECT_DIR$/app/views/pages/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/logout.php" afterPath="$PROJECT_DIR$/app/controllers/logout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/pages/track-add.php" afterPath="$PROJECT_DIR$/app/views/admin/pages/track-add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.php" afterPath="$PROJECT_DIR$/app/models/user.php" />
     </list>
     <ignored path="dashboard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,34 +96,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="left-bar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/templates/left-bar.php">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/templates/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1615">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state vertical-scroll-proportion="-10.5" vertical-offset="16" max-vertical-offset="663">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="left-bar-teacher.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/templates/left-bar-teacher.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1122">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="track-add.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/pages/track-add.php">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/pages/track-add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9440789" vertical-offset="2044" max-vertical-offset="4539">
-              <caret line="154" column="15" selection-start-line="154" selection-start-column="15" selection-end-line="154" selection-end-column="15" />
-              <folding>
-                <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#section#0;n#section#0;n#!!top" expanded="true" />
-                <marker date="1416735638295" expanded="true" signature="2672:2721" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/templates/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="612">
-              <caret line="23" column="81" selection-start-line="23" selection-start-column="81" selection-end-line="23" selection-end-column="81" />
+            <state vertical-scroll-proportion="1.5065789" vertical-offset="3572" max-vertical-offset="5491">
+              <caret line="264" column="0" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,11 +139,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/templates/left-bar.php" />
         <option value="$PROJECT_DIR$/app/controllers/users.php" />
         <option value="$PROJECT_DIR$/app/controllers/tracks.php" />
-        <option value="$PROJECT_DIR$/app/views/templates/header.php" />
         <option value="$PROJECT_DIR$/app/views/pages/track-add.php" />
+        <option value="$PROJECT_DIR$/app/views/templates/left-bar.php" />
+        <option value="$PROJECT_DIR$/app/views/templates/header.php" />
+        <option value="$PROJECT_DIR$/app/views/templates/left-bar-teacher.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/pages/track-add.php" />
       </list>
     </option>
   </component>
@@ -168,24 +232,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -206,6 +252,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -323,51 +413,35 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/users.php">
+    <entry file="file://$PROJECT_DIR$/app/views/templates/left-bar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49275362" vertical-offset="0" max-vertical-offset="621">
-          <caret line="127" column="26" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
-          <folding>
-            <element signature="n#view#0;n#users#0;n#!!top" expanded="false" />
-            <element signature="n#add#0;n#users#0;n#!!top" expanded="false" />
-            <element signature="n#index#0;n#users#0;n#!!top" expanded="false" />
-            <element signature="n#edit#0;n#users#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/tracks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="35.307693" vertical-offset="918" max-vertical-offset="4012">
-          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.08388158" vertical-offset="0" max-vertical-offset="1615">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/templates/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="612">
-          <caret line="23" column="81" selection-start-line="23" selection-start-column="81" selection-end-line="23" selection-end-column="81" />
+        <state vertical-scroll-proportion="-10.5" vertical-offset="16" max-vertical-offset="663">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/templates/left-bar.php">
+    <entry file="file://$PROJECT_DIR$/app/views/templates/left-bar-teacher.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1615">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/track-add.php">
+    <entry file="file://$PROJECT_DIR$/app/views/admin/pages/track-add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9440789" vertical-offset="2044" max-vertical-offset="4539">
-          <caret line="154" column="15" selection-start-line="154" selection-start-column="15" selection-end-line="154" selection-end-column="15" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#div#0;n#div#0;n#section#0;n#section#0;n#!!top" expanded="true" />
-            <marker date="1416735638295" expanded="true" signature="2672:2721" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="1.5065789" vertical-offset="3572" max-vertical-offset="5491">
+          <caret line="264" column="0" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

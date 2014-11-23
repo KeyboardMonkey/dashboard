@@ -6,7 +6,7 @@ class Logout extends MY_Controller {
 
 	public function index()
 	{
-
+		
 	$this->session->sess_destroy();
 	$this->load->view('templates/header');
 	$this->load->view('pages/logout');

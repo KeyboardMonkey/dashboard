@@ -1,4 +1,5 @@
 <link href="<?=base_url();?>assets/css/main.css" rel="stylesheet">
+<<<<<<< HEAD:app/views/pages/track-add.php
 <script>
     /*
      * jQuery UI Multiselect
@@ -13,6 +14,52 @@
      *	ui.core.js
      *	ui.sortable.js
      */
+=======
+<link href="<?=base_url();?>assets/css/jquery-ui-1.7.1.custom.css" rel="stylesheet">
+<style type="text/css">
+/* Multiselect
+----------------------------------*/
+
+/* multiselect styles */
+.multiselect {
+	width: 460px !important;
+	height: 200px !important;
+}
+
+#switcher {
+	margin-top: 20px !important;
+}
+
+
+.ui-multiselect { margin:2px 0 30px 10px; border: solid 1px #bbb;}
+.ui-multiselect ul.selected { background: #fff; margin: 0; padding: 0; padding-top: 1px; overflow: auto; list-style: none; border: 0; float:left; position: relative; }
+.ui-multiselect ul.selected li { line-height: 20px; font-size: 11px; }
+.ui-multiselect ul.selected li a { color: #999; text-decoration: none; padding: 0 0 0 20px; display: block; float: left;}
+.ui-multiselect ul.available { padding: 0; padding-top: 1px; overflow: auto; background: #fff; margin: 0; list-style: none; border: 0; float:left; position: relative; border-left: 1px solid #bbb;}
+.ui-multiselect ul.available li { line-height: 20px; font-size: 11px;}
+.ui-multiselect ul.available li a { color: #999; text-decoration: none; padding: 0 0 0 20px; display: block; float: left;}
+.ui-state-default { border: none; position: relative; padding-left: 20px; border-bottom: 1px solid #ccc;}
+.ui-state-hover { border: none; border-bottom: 1px solid #ccc; }
+.ui-multiselect ul li span.ui-icon-arrowthick-2-n-s { position: absolute; left: 2px;}
+.ui-multiselect ul li a.action { position: absolute; right: 2px; top: 2px; }
+	
+</style>
+
+
+<!-- scripts for multiselect plugin -->
+<script type="text/javascript" src="<?=base_url();?>assets/js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/js/jquery-ui-1.7.1.custom.min.js"></script>
+<script type="text/javascript" src="<?=base_url();?>assets/js/ui.multiselect.js"></script>
+
+ <script type="text/javascript">
+  $(function(){
+    // Multiselect
+    $(".multiselect").multiselect({sortable: true});
+  });
+  </script>
+
+<!-- /scripts for multiselect plugin -->
+>>>>>>> origin/master:app/views/admin/pages/track-add.php
 
 
     (function($) {
@@ -184,6 +231,7 @@
 				<td><label>Course Pool</label></td>
 				<td>
 
+
 					<select class="course-pool-left" id="category" multiple >
 					
 						
@@ -212,6 +260,9 @@
                             $(".multiselect").multiselect({sortable: false, searchable: false});
                         });
                     </script>
+
+					
+
 				</td>
 			</tr>
 			<tr>
@@ -260,3 +311,7 @@
 </section><!-- /MAIN CONTENT -->
 
 <section class="clear"></section>
+
+<!-- Multiselect envoke -->
+
+<!-- /Multiselect envoke -->

@@ -51,12 +51,25 @@ class Login extends CI_Controller {
                                 $this -> session -> set_userdata('email', $user -> email);
                                 $this -> session -> set_userdata('type', $user -> type);
                                 
-                                  
-                                redirect('home');
+                                  if($user->type=='USER'){
+                                    
+                                    redirect('logout'); 
+                                  }
+                                  elseif ($user->type=='ADMIN') {
+                                    redirect('admin'); 
+                                  }
+                                  else
+                                  {
+                                    redirect('TEACHER'); 
+                                  }
+
+
+                                echo "<script>alert('ERROR: 9076 \"User type unidentified! [See login:67]\"');";
+                                redirect('logout'); 
                         }
                        
                     }else{
-                        $message = "<h4>No such record found!</h4>";
+                        $message = "<h4>Invalid username or password!</h4>";
                     }
                     
                     
