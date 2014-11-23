@@ -97,3 +97,61 @@ a.form-action { margin:20px 42px; padding:6px 12px; float:right; display:inline-
 button.summary-review { margin:20px 0px; padding:8px 0; width:150px; font-size:14px; background:#2ABB9B; color:#FFFFFF; border:1px solid #2ABB9B; transition:all 0.5s ease-out; }
     button.summary-review:hover { background:#ECF0F1; color:#2ABB9B; }
 /*--------------End Summary Review------------------*/
+
+/*-----------------------------------------------------------Learning Tracks-----------------------------------------------------------*/
+ul.suggest-me-track { margin:20px auto 0; padding:0; width:18%; }
+    ul.suggest-me-track li { margin:2px auto; padding:0; list-style:none; background:#2ABB9B; opacity:0.7; }
+    ul.suggest-me-track li:hover { opacity:1; }
+    ul.suggest-me-track li a { padding:20px 0 20px 70px; color:#FFFFFF; display:block; transition:all 0.5s ease-out; }
+    span.suggest-me-track { margin:-10px 10px; position:absolute; }
+
+#tracks .half-one { margin:20px 0 0 1.5%; padding:20px 0; width:47.5%; float:left; border:1px solid #2ABB9B; border-top:5px solid #2ABB9B; }
+#tracks .half-two { margin:20px 1.5% 0 0; padding:20px 0; width:47.5%; float:right; border:1px solid #2ABB9B; border-top:5px solid #2ABB9B; }
+#tracks .course-info { margin:0; }
+#tracks .course-info h5 { margin:0; padding:0; padding:10px 20px; }
+#tracks .course-info p.points { margin:-30px 20px; float:right; background:#ECF0F1; }
+#tracks .course-info h2.course-name { padding:0 20px 0; color:#2ABB9B; }
+#tracks .course-info a {color:#2ABB9B; }
+#tracks .course-info h5.tiny-intro { padding:10px 20px; opacity:1; }
+#tracks .course-info p.desc { padding:10px 20px; height:65px; line-height:1.5; overflow:hidden; font-size:13px; }
+#tracks .buttons { margin:10px 20px; float:right; }
+#tracks .buttons button { border:none; cursor:pointer; }
+
+#course-progress-left { margin:20px; float:left; }
+#course-progress-left h2, #course-progress-left h4, #course-progress-left h5 { padding:5px 0; }
+#course-progress-right h4 { padding:5px 0; }
+#course-progress-right { margin:20px; float:right; }
+#track-description { margin:20px; }
+.progress-bar { margin:0; padding:5px 5px; width:80%; }
+.course-progress { margin:30px 20px 0; float:right; }
+.course-progress button { border:none; cursor:pointer; }
+.content-lg #course-col-track { margin:20px 20px; }
+.course-number-col { margin:85px 0 0 10px; float:left; background:#58585A; width:100px; height:100px; border-radius:50%; opacity:0.4; }
+.course-number-col-completed { margin:85px 0 0 10px; float:left; background:#2ABB9B; width:100px; height:100px; border-radius:50%; opacity:1; }
+    .course-number-col h2 { padding:25px 0; font-size:42px; text-align:center; color:#FFFFFF; }
+.course-track-border { margin:130px 0; float:left; width:700px; height:10px; background:#58585A; opacity:0.4; }
+.course-track-border-completed { margin:130px 0; float:left; width:700px; height:10px; background:#2ABB9B; opacity:1; }
+.course-col { margin:20px 0; padding:25px 0; float:left; border-top:2px solid #2ABB9B; width:350px; height:180px; background:#ECF0F1; opacity:0.4; }
+.course-col-completed { margin:20px 0; padding:25px 0; float:left; border-top:2px solid #2ABB9B; width:350px; height:180px; background:#ECF0F1; opacity:1; }
+    .course-col h4.level { margin:10px; padding:0; float:left; font-size:14px; }
+    .course-col h4.course-name { margin:10px; font-size:18px; float:left; color:#2ABB9B; }
+    .course-col .course-name a  {color:#2ABB9B; }
+    .course-col p.points { margin:10px; padding:0 10px; font-size:14px; float:left; background:#ffffff; display:inline-block; }
+    .course-col h4.rating { margin:10px; padding:0; float:right; font-size:14px; }
+    .course-col img { margin:15px 125px 30px; }
+    .course-col h5 { margin:10px 0 0 0; padding:0 20px; color:#FFFFFF; float:right; }
+        .course-col h5.html { background:#19B5FE; }
+        .course-col h5.css { background:#FCDC05; }
+        .course-col h5.cpp { background:#67809F; }
+        .course-col h5.php { background:#3A539B; }
+        .course-col h5.javascript{ background:#DDA423; }
+        .course-col h5.jquery { background:#2AE7C3; }
+        .course-col h5.asp { background:#C0392B; }
+        .course-col h5.android { background:#2ECC71; }
+        .course-col h5.java{ background:#F22613; }
+        .course-col h5.wordpress { background:#6C7A89; }
+        .course-col h5.d-tools { background:#913D88; }
+        .course-col h5.business { background:#34495e; }
+        .course-col h5.design { background:#E67E22; }
+        .course-col h5.other { background:#915E25; }
+/*-----------------------------------------------------------End Learning Paths-----------------------------------------------------------*/

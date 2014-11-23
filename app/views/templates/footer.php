@@ -1,8 +1,8 @@
  <!--footer start-->
       <footer class="site-footer">
           <div class="text-center">
-              2014 - Alvarez.is
-              <a href="blank.html#" class="go-top">
+              2014 - Vitorials.net
+              <a href="#top" class="go-top">
                   <i class="fa fa-angle-up"></i>
               </a>
           </div>

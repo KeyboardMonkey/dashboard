@@ -2,12 +2,12 @@
 
 class Summary extends CI_Controller {
 
-	public function review()
+	public function mark()
 	{
 		$this->load->view('templates/header');
 		$this->load->view('templates/top-bar');
 		$this->load->view('templates/left-bar');
-		$this->load->view('pages/summary-review');
+		$this->load->view('pages/summary-mark');
 		$this->load->view('templates/footer');
 	}
 
@@ -26,8 +26,7 @@ class Summary extends CI_Controller {
 		$this->load->view('templates/header');
 		$this->load->view('templates/top-bar');
 		$this->load->view('templates/left-bar');
-		$this->load->view('pages/courses');
-
+		$this->load->view('pages/summaries-all');
 		$this->load->view('templates/footer');
 	}
 }

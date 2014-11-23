@@ -15,6 +15,7 @@
                       <div class="content-panel">
                           <table class="table table-striped table-advance table-hover">
                             <h4><i class="fa fa-angle-right"></i> User List</h4>
+                            <a href="">Add New User</a>
                             <hr>
                               <thead>
                               <tr>

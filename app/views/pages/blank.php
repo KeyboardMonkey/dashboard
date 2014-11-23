@@ -12,7 +12,7 @@
           		</div>
           	</div>
 			
-		</section><! --/wrapper -->
+		</section><!-- /wrapper -->
       </section><!-- /MAIN CONTENT -->
 
      
