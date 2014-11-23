@@ -116,4 +116,15 @@ class users extends MY_Controller {
 
 		$this->load->view('templates/footer');
 	}
+    public function delete($user_id=NULL)
+    {
+        if($user_id != NULL && $user_id != 1)
+        {
+            $user = new user();
+            $user -> load($user_id);
+            $user -> delete();
+
+        }
+        redirect('users');
+    }
 }

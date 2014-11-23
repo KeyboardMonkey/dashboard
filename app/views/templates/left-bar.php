@@ -9,7 +9,7 @@
               
               	  <p class="centered"><a href="profile.html"><img src="<?=base_url();?>assets/img/ui-sam.jpg" class="img-circle" width="60"></a></p>
                   <h5 class="centered">AR Malik</h5>
-              	  <h6 class="centered" style="color:#fff;">ADMIN / TEACHER</h6>
+              	  <h6 class="centered" style="color:#fff;"><?=strtoupper($this -> session -> userdata('type'));?></h6>
               	  	
                   <li class="mt">
                       <a href="<?=base_url();?>index.php/home">
